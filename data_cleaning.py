@@ -48,4 +48,4 @@ df.rename(columns={'Price':'Price, €',
                    'Return Flight Duration':'Return Flight Duration, min'},
           inplace=True)
 
-df.to_csv('csv_files/SkyScanner_Vilnius_Tokyo.csv', index=False)
+df.to_csv('csv_files/SkyScanner_Vilnius_Tokyo_with_indexes.csv', index=True)
