@@ -42,7 +42,7 @@ def scrape_website(outbound_day, return_day):
     show_more_results_button.click()
 
     # Scroll to the bottom
-    for _ in range(68): #65
+    for _ in range(68):
         driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
         time.sleep(8)
 
@@ -153,4 +153,4 @@ def scrape_website(outbound_day, return_day):
     return df
 
 
-scrape_website('10', '17')
+scrape_website('24', '31')
